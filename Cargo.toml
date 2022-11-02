@@ -1,0 +1,15 @@
+[package]
+name = "outline-watchdog"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+dirs = "4.0"
+reqwest = "0.11"
+tracing-subscriber = "0.3.16"
+aws-config = "0.51.0"
+aws-sdk-route53 = "0.21.0"
+tokio = { version = "1", features = ["full"] }
