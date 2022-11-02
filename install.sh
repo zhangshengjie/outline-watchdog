@@ -5,7 +5,7 @@
  # @Autor: z.cejay@gmail.com
  # @Date: 2022-11-02 23:36:13
  # @LastEditors: cejay
- # @LastEditTime: 2022-11-03 00:30:18
+ # @LastEditTime: 2022-11-03 00:36:09
 ### 
 
 set -euo pipefail
@@ -106,7 +106,5 @@ systemctl start outline-watchdog.service
 #systemctl status outline-watchdog.service
 
 # install outline vpn
-sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/zhangshengjie/outline-watchdog/main/install_server.sh)" --hostname ${HOSTNAME}
-
-
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/zhangshengjie/outline-watchdog/main/install_server.sh)" install_server.sh --hostname ${HOSTNAME}
 
