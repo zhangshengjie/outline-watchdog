@@ -5,7 +5,7 @@
  # @Autor: z.cejay@gmail.com
  # @Date: 2022-11-02 23:36:13
  # @LastEditors: cejay
- # @LastEditTime: 2022-11-03 00:23:21
+ # @LastEditTime: 2022-11-03 00:30:18
 ### 
 
 set -euo pipefail
@@ -64,6 +64,8 @@ echo "SECRET_ACCESS_KEY = ${SECRET_ACCESS_KEY}"
 
 sudo apt update
 sudo apt install -y curl wget git
+
+exit 0
 
 # install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
