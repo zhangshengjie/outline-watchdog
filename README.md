@@ -2,6 +2,8 @@
 
 ## install
 
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)" install_server.sh --hostname=myserver.com
+
 ```bash
 sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/zhangshengjie/outline-watchdog/main/install.sh)" install.sh --zoneid "xx" --hostname "xx" --access_key_id "xx" --secret_access_key "xx"
 ```
